@@ -26,8 +26,8 @@ Step 1: Download project files from:
 Step 2: Place unzipped project files in desired local directory
 
 Step 3: To prevent the user from having to change directories, the user should copy and paste the following files from the downloaded UCI HAR subfolders into the main UCI HAR Dataset folder:
-        from "test": subject_test.txt, X_test.txt, y_test.txt
-        from "train": subject_train.txt, X_train.txt, y_train.txt
+    From "test": subject_test.txt, X_test.txt, y_test.txt
+    From "train": subject_train.txt, X_train.txt, y_train.txt
               
 Step 4: Set the working directory in RStudio
 
