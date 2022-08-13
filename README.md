@@ -23,17 +23,17 @@ From dowload to final output, this process requires 6 active steps:
 Step 1: Download project files from: 
     https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Step 2: Place unzipped project files in desired local directory
+Step 2: Place unzipped project files in desired local directory.
 
 Step 3: To prevent the user from having to change directories, the user should copy and paste the following files from the downloaded UCI HAR subfolders into the main UCI HAR Dataset folder:
-    From "test": subject_test.txt, X_test.txt, y_test.txt
-    From "train": subject_train.txt, X_train.txt, y_train.txt
+    From "test": subject_test.txt, X_test.txt, y_test.txt. 
+    From "train": subject_train.txt, X_train.txt, y_train.txt.
               
-Step 4: Set the working directory in RStudio
+Step 4: Set the working directory in RStudio.
 
 Step 5: If the user has not installed the r package 'tidyverse', it can be installed in RStudio by entering install.packages("tidyverse") into the command line of their RStudio console and hitting return. The analysis code will open this package for the user.
 
-Step 6: Paste all the code from run_analysis.r into the RStudio console and hit return. This can be done by using select all (within source) -> copy (within source) ->, paste (within console).
+Step 6: Paste all the code from run_analysis.r into the RStudio console and hit return. This can be done by using select all (within source) -> copy (within source) -> paste (within console).
 Note: 2 tables will appear in 'source' after code has run: 
     "dataset" (full dataset of means & std's before summarizing) and 
     "datasetavg" (average of each variable for each activity and each subject)
