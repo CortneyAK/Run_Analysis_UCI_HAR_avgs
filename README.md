@@ -19,6 +19,7 @@ The code included in run_analysis.r:
   5) Groups the observations by subject and activity, then summarizes the data into average readings of the selected features variables.
 
 From dowload to final output, this process requires 6 active steps:
+
 Step 1: Download project files from: 
     https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
